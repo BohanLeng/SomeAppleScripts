@@ -7,7 +7,8 @@ Some Applescripts that meet Lamberhand's needs.
 
 1. [Script: Open Terminal then Change Directory](#dir)
 2. [Script: Play Album with NeteaseMusic](#album)
-3. [Configuration Guide](#config)
+3. [Script: Play Song with NeteaseMusic](#song)
+4. [Configuration Guide](#config)
 
 
 
@@ -38,6 +39,10 @@ So make sure you have albums you want in your *我的收藏* folder. If not, thi
 It generally takes approx. 5 to 20 seconds to start playing depending on network responsiveness. Since NeteaseMusic doesn't expose interfaces to AppleScript, it is potential that this script fails to bring you to your music. Just run it again if this is the case.
 
 
+
+## <span id="song">Script: Play Song with NeteaseMusic</span>
+
+As stated in previous section, this script, similarly, serves the purpose of searching a song, not album, in Favorites.
 
 
 
