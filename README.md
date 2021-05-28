@@ -19,7 +19,9 @@ Some Applescripts that meet Lamberhand's needs.
 
 Git operation on Mac relies on command line tool. It frustates me when manually typing in `$ cd /.../.../...` after opening Terminal.
 
-This scripts opens Terminal and automatically change directory to current folder and execute `$ ls`for you to check items in current folder. Now you are free to operate with Git or whatever you want in this directory.
+This scripts opens **Terminal** and automatically change directory to current folder and execute `$ ls`for you to check items in current folder. Now you are free to operate with Git or whatever you want in this directory.
+
+If current application is other than **Finder**, this script will only open Terminal for you. 
 
 
 
@@ -57,8 +59,8 @@ It generally takes approx. 5 to 20 seconds to start playing depending on network
    on run {input, parameters}
    	
    	...(Thingy copied)
-   	...
-       ...
+   	...(Thingy copied)
+   	...(Thingy copied)
    	
    	return input
    end run
@@ -68,7 +70,7 @@ It generally takes approx. 5 to 20 seconds to start playing depending on network
 
 6. Click **** on the top left corner to open **System Preferences.../系统偏好设置** . Choose **Keyboard/键盘 &rArr; Shortcuts/快捷键设置&rArr; Services/服务**. Scroll to bottom and find your entitled service. Set a proper shotcuts as you like.
 
-7. Good to go. Press the keyboard shotcut which you chose and enjoy.
+7. Good to go. Press the keyboard shotcut which you chose and enjoy. Initial launch in any new app will cause a window asking for access. Choose **OK** freely. 
 
 
 
@@ -77,7 +79,7 @@ It generally takes approx. 5 to 20 seconds to start playing depending on network
 1. Clone this repository or download .zip containing srcipts.
 2. Click and open the script you want by **Script Editor/脚本编辑器** (by default). 
 3. Click **File/文件 &rArr; Export/导出** on the menu bar. Choose **File Format** to **Application**. Specify a name and folder to export.
-4. Good to go. ***⌘+Space*** to open Spotlight search and search the application which you entitled.
+4. Good to go. ***⌘+Space*** to open Spotlight search and search the application which you entitled. Initial launch in any new app will cause a window asking for access. Choose **OK** freely. 
 
 
 
