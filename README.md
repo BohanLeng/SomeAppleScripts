@@ -3,7 +3,7 @@ Some Applescripts that meet Lamberhand's needs.
 
 
 
-## *Menu*
+## *Contents*
 
 1. [Script: Open Terminal then Change Directory](#dir)
 2. [Script: Play Album with NeteaseMusic](#album)
@@ -19,7 +19,31 @@ Some Applescripts that meet Lamberhand's needs.
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 ## <span id="album">Script: Play Album with NeteaseMusic</span>
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
