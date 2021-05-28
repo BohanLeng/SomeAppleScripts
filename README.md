@@ -15,7 +15,7 @@ Some Applescripts that meet Lamberhand's needs.
 
 
 
-## <span id="dir">Script: OpenTerminal then Change Directory</span>
+## <span id="dir">Script: Open Terminal then Change Directory</span>
 
 Git operation on Mac relies on command line tool. It frustates me when manually typing in `$ cd /.../.../...` after opening Terminal.
 
@@ -71,6 +71,15 @@ It generally takes approx. 5 to 20 seconds to start playing depending on network
 6. Click **** on the top left corner to open **System Preferences.../系统偏好设置** . Choose **Keyboard/键盘 &rArr; Shortcuts/快捷键设置&rArr; Services/服务**. Scroll to bottom and find your entitled service. Set a proper shotcuts as you like.
 
 7. Good to go. Press the keyboard shotcut which you chose and enjoy. Initial launch in any new app will cause a window asking for access. Choose **OK** freely. 
+
+> My personal shotcut assigning share:
+>
+> | Script                              | Shotcut |
+> | ----------------------------------- | ------- |
+> | Open Terminal then Change Directory | ⌥⌘+`    |
+> | Play Album with NeteaseMusic        | ⌃⌥⌘+M   |
+>
+> 
 
 
 
