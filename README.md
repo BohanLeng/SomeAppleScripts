@@ -11,11 +11,9 @@ Some Applescripts that meet Lamberhand's needs.
 4. [Script: Play Song with NeteaseMusic](#song)
 5. [Configuration Guide](#config)
 
+ 
 
-
-
-
-
+ 
 
 ## <span id="dir">Script: Open Terminal then Change Directory</span>
 
@@ -25,7 +23,9 @@ This scripts opens **Terminal** and automatically change directory to current fo
 
 If current application is other than **Finder**, this script will only open Terminal for you. 
 
+ 
 
+ 
 
 ## Script: Print to PDF with Safari
 
@@ -43,7 +43,9 @@ This script will help you tremendously shorten this procedure by nearly **5 seco
 - Run this script
 - Confirm and save
 
+ 
 
+ 
 
 ## <span id="album">Script: Play Album with NeteaseMusic</span>
 
@@ -55,7 +57,9 @@ So make sure you have albums you want in your *我的收藏* folder. If not, thi
 
 It generally takes approx. 5 to 20 seconds to start playing depending on network responsiveness. Since NeteaseMusic doesn't expose interfaces to AppleScript, it is potential that this script fails to bring you to your music. Just run it again if this is the case.
 
+ 
 
+ 
 
 ## <span id="song">Script: Play Song with NeteaseMusic</span>
 
@@ -63,7 +67,9 @@ As stated in [previous section](#album), this script, similarly, serves the purp
 
 > Still in construction
 
+ 
 
+ 
 
 ## <span id="config">Configuration Guide</span>
 
