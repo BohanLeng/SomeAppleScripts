@@ -6,9 +6,10 @@ Some Applescripts that meet Lamberhand's needs.
 ## *Contents*
 
 1. [Script: Open Terminal then Change Directory](#dir)
-2. [Script: Play Album with NeteaseMusic](#album)
-3. [Script: Play Song with NeteaseMusic](#song)
-4. [Configuration Guide](#config)
+2. [Script: Print to PDF with Safari](#print)
+3. [Script: Play Album with NeteaseMusic](#album)
+4. [Script: Play Song with NeteaseMusic](#song)
+5. [Configuration Guide](#config)
 
 
 
@@ -26,6 +27,22 @@ If current application is other than **Finder**, this script will only open Term
 
 
 
+## Script: Print to PDF with Safari
+
+When I search for research papers, it is very possible that direct PDF download link is not provided by databases (eg. SpringerLink, ScienceDirect, etc.). Clicking "Download PDF" buttons will lead you to a webpage showing this PDF. To save it requires more additional steps:
+
+- ~~Press **⌘+P** to open print settings~~
+- ~~Change button "PDF" to "**Save as PDF**"~~
+- ~~Go back and copy the title of article~~
+- ~~Paste to the name~~
+- ~~Click save~~
+
+This script will help you tremendously shorten this procedure by nearly **5 seconds** when you find yourself trapped in this situation. It does all the job for you, including reading your clipboard and paste to text field when saving. Here is what you need to do now:
+
+- Copy the title of article
+- Run this script
+- Confirm and save
+
 
 
 ## <span id="album">Script: Play Album with NeteaseMusic</span>
@@ -42,17 +59,19 @@ It generally takes approx. 5 to 20 seconds to start playing depending on network
 
 ## <span id="song">Script: Play Song with NeteaseMusic</span>
 
-As stated in previous section, this script, similarly, serves the purpose of searching a song, not album, in Favorites.
+As stated in [previous section](#album), this script, similarly, serves the purpose of searching a song, not album, in Favorites.
+
+> Still in construction
 
 
 
 ## <span id="config">Configuration Guide</span>
 
-### **A. Run by Keyboard Shortcut**
+### <span id ="configA">**A. Run by Keyboard Shortcut**</span>
 
 1. Clone this repository or download .zip containing srcipts. 
 
-2. ***⌘+Space*** to open Spotlight search. Input **Automator** to open **Automator**. Choose **Quick Action/服务**, creating new document.
+2. **⌘+Space** to open Spotlight search. Input **Automator** to open **Automator**. Choose **Quick Action/服务**, creating new document.
 
 3. Search **AppleScript** in search bar on the top left. Drag and drop **Run AppleScript/运行AppleScript** into workflow column on the right side.
 
@@ -71,7 +90,7 @@ As stated in previous section, this script, similarly, serves the purpose of sea
    end run
    ~~~
 
-5. ***⌘+S*** to save this quick action/服务. Specify a proper name.
+5. **⌘+S** to save this quick action/服务. Specify a proper name.
 
 6. Click **** on the top left corner to open **System Preferences.../系统偏好设置** . Choose **Keyboard/键盘 &rArr; Shortcuts/快捷键设置&rArr; Services/服务**. Scroll to bottom and find your entitled service. Set a proper shotcuts as you like.
 
@@ -84,7 +103,7 @@ As stated in previous section, this script, similarly, serves the purpose of sea
 > | Open Terminal then Change Directory | ⌥⌘+`    |
 > | Play Album with NeteaseMusic        | ⌃⌥⌘+M   |
 >
-> 
+> ⌃ - control	⌥ - option / alt	⌘ - command	⇧ - shift
 
 
 
@@ -93,7 +112,13 @@ As stated in previous section, this script, similarly, serves the purpose of sea
 1. Clone this repository or download .zip containing srcipts.
 2. Click and open the script you want by **Script Editor/脚本编辑器** (by default). 
 3. Click **File/文件 &rArr; Export/导出** on the menu bar. Choose **File Format** to **Application**. Specify a name and folder to export.
-4. Good to go. ***⌘+Space*** to open Spotlight search and search the application which you entitled. Initial launch in any new app will cause a window asking for access. Choose **OK** freely. 
+4. Good to go. **⌘+Space** to open Spotlight search and search the application which you entitled. Initial launch in any new app will cause a window asking for access. Choose **OK** freely. 
+
+
+
+**C. Thirdparty Application - Keyboard Maestro**
+
+Keyboard Maestro provides more convienent approach to binding keyboard chortcuts to script than automator does. Since it is a paid application and its configuration is similar to that of [**A**](#configA), we don't dive into Keyboard Maestro any longer for now.
 
 
 
