@@ -108,8 +108,9 @@ As stated in [previous section](#album), this script, similarly, serves the purp
 > | ----------------------------------- | ------- |
 > | Open Terminal then Change Directory | ⌥⌘+`    |
 > | Play Album with NeteaseMusic        | ⌃⌥⌘+M   |
+> | Print to PDF with Safari            | ⌃⌥⌘+P   |
 >
-> ⌃ - control	⌥ - option / alt	⌘ - command	⇧ - shift
+> ⌃ - control    	⌥ - option / alt    	⌘ - command    	⇧ - shift
 
 
 
