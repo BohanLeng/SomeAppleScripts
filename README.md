@@ -23,7 +23,7 @@ This scripts opens **Terminal** and automatically change directory to current fo
 
 If current application is other than **Finder**, this script will only open Terminal for you. 
 
- <img src="images/OpenTerminalThenChangeDir.gif" alt="OpenTerminalThenChangeDir" style="zoom:50%;" />
+ <img src="images/OpenTerminalThenChangeDir.gif" alt="OpenTerminalThenChangeDir" width="60%" />
 
 
 
@@ -45,7 +45,7 @@ This script will help you tremendously shorten this procedure by nearly **5 seco
 - Run this script
 - Confirm and save
 
-<img src="images/PrintToPDFWithSafari.gif" alt="PrintToPDFWithSafari" style="zoom:50%;" /> 
+<img src="images/PrintToPDFWithSafari.gif" alt="PrintToPDFWithSafari" width="60%" /> 
 
 ## <span id="album">Script: Play Album with NeteaseMusic</span>
 
@@ -57,7 +57,7 @@ So make sure you have albums you want in your *我的收藏* folder. If not, thi
 
 It generally takes approx. 5 to 20 seconds to start playing depending on network responsiveness. Since NeteaseMusic doesn't expose interfaces to AppleScript, it is potential that this script fails to bring you to your music. Just run it again if this is the case.
 
- <img src="images/PlayAlbumWithNeteaseMusic.gif" alt="PlayAlbumWithNeteaseMusic" style="zoom:50%;" />
+ <img src="images/PlayAlbumWithNeteaseMusic.gif" alt="PlayAlbumWithNeteaseMusic" width="60%" />
 
  
 
