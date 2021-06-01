@@ -81,21 +81,16 @@ As stated in [previous section](#album), this script, similarly, serves the purp
 
 3. Search **AppleScript** in search bar on the top left. Drag and drop **Run AppleScript/运行AppleScript** into workflow column on the right side.
 
-4. Copy script and paste, overriding `(* Your script goes here *)` in **Run AppleScript/运行AppleScript** window. *i.e.* `on run {input, parameters}`, `return input` and `end run` should be reserved. 
+4. Copy script and paste into window **Run AppleScript/运行AppleScript**. , overriding all the internal codes. After pasting the whole script should be like this:
 
-   The whole script should be like this:
-
-   ~~~objective-c
-   on run {input, parameters}
-   	
+   ~~~javascript
+   on run
    	...(Thingy copied)
    	...(Thingy copied)
    	...(Thingy copied)
-   	
-   	return input
    end run
    ~~~
-
+   
 5. **⌘+S** to save this quick action/服务. Specify a proper name.
 
 6. Click **** on the top left corner to open **System Preferences.../系统偏好设置** . Choose **Keyboard/键盘 &rArr; Shortcuts/快捷键设置&rArr; Services/服务**. Scroll to bottom and find your entitled service. Set a proper shotcuts as you like.
@@ -114,7 +109,7 @@ As stated in [previous section](#album), this script, similarly, serves the purp
 
 
 
-**B. Run by Spotlight Search**
+### **B. Run by Spotlight Search**
 
 1. Clone this repository or download .zip containing srcipts.
 2. Click and open the script you want by **Script Editor/脚本编辑器** (by default). 
@@ -123,7 +118,7 @@ As stated in [previous section](#album), this script, similarly, serves the purp
 
 
 
-**C. Thirdparty Application - Keyboard Maestro**
+### **C. Thirdparty Application - Keyboard Maestro**
 
 Keyboard Maestro provides more convienent approach to binding keyboard chortcuts to script than automator does. Since it is a paid application and its configuration is similar to that of [**A**](#configA), we don't dive into Keyboard Maestro any longer for now.
 
