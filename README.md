@@ -17,19 +17,19 @@ Some Applescripts that meet Lamberhand's needs.
 
 ## <span id="dir">Script: Open Terminal then Change Directory</span>
 
+ <img src="images/OpenTerminalThenChangeDir.gif" alt="OpenTerminalThenChangeDir" width="60%" />
+
 Git operation on Mac relies on command line tool. It frustates me when manually typing in `$ cd /.../.../...` after opening Terminal.
 
 This scripts opens **Terminal** and automatically change directory to current folder and execute `$ ls`for you to check items in current folder. Now you are free to operate with Git or whatever you want in this directory.
 
 If current application is other than **Finder**, this script will only open Terminal for you. 
 
- <img src="images/OpenTerminalThenChangeDir.gif" alt="OpenTerminalThenChangeDir" width="60%" />
-
-
-
  
 
 ## Script: Print to PDF with Safari
+
+<img src="images/PrintToPDFWithSafari.gif" alt="PrintToPDFWithSafari" width="60%" /> 
 
 When I search for research papers, it is very possible that direct PDF download link is not provided by databases (eg. SpringerLink, ScienceDirect, etc.). Clicking "Download PDF" buttons will lead you to a webpage showing this PDF. To save it requires more additional steps:
 
@@ -45,9 +45,11 @@ This script will help you tremendously shorten this procedure by nearly **5 seco
 - Run this script
 - Confirm and save
 
-<img src="images/PrintToPDFWithSafari.gif" alt="PrintToPDFWithSafari" width="60%" /> 
+
 
 ## <span id="album">Script: Play Album with NeteaseMusic</span>
+
+ <img src="images/PlayAlbumWithNeteaseMusic.gif" alt="PlayAlbumWithNeteaseMusic" width="60%" />
 
 I listen to music with NeteaseMusic in most cases. When I listen to music, I listen by album in most cases. I have *The Dark Side of the Moon*, *Slowdive*, *Treasure*, *Unknown Pleasures*, etc. in my Favorites of albums in NeteaseMusic. Opening application and click and wait multiple times costs time, energy and mood. All I want is typing in *souvl* and *Souvlaki* is played subsequently.
 
@@ -56,8 +58,6 @@ This script opens NeteaseMusic and prompt dialog for input. Keyword accepted wil
 So make sure you have albums you want in your *我的收藏* folder. If not, this scripts will let you know. If there are multiple search results, this scripts will let you decide. If you don't type anything in, this scripts will open your *我的收藏* page and let you browse.
 
 It generally takes approx. 5 to 20 seconds to start playing depending on network responsiveness. Since NeteaseMusic doesn't expose interfaces to AppleScript, it is potential that this script fails to bring you to your music. Just run it again if this is the case.
-
- <img src="images/PlayAlbumWithNeteaseMusic.gif" alt="PlayAlbumWithNeteaseMusic" width="60%" />
 
  
 
